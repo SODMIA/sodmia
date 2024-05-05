@@ -1,10 +1,11 @@
 import React from "react";
 import { CustomNavigationMenu } from "./CustomNavigationMenu";
 import Link from "next/link";
+import { Button } from "../ui/button";
 
 export default function Navbar() {
   return (
-    <nav className="p-4 container flex justify-between h-14 mx-auto  bg-white">
+    <nav className="fixed top-0 left-0 w-full bg-black  text-white z-50 p-4 container flex justify-between items-center h-14 mx-auto">
       <Link
         rel="noopener noreferrer"
         href="/"
@@ -16,17 +17,14 @@ export default function Navbar() {
       <div className="hidden lg:flex">
         <CustomNavigationMenu />
       </div>
-
-      <button className="self-center px-8 py-3 rounded hidden lg:block">
-        Contacto
-      </button>
+      <Button className="hidden lg:block">Contacto</Button>
       <button className="lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          className="w-6 h-6 dark:text-gray-800"
+          className="w-6 h-6"
         >
           <path
             strokeLinecap="round"

@@ -3,15 +3,38 @@
 @tailwind utilities;
 
 body {
-  background: #ECE9E6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background-image: url("../public/bg1.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed
+  @apply text-white bg-center border-none;
 }
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* colores */
+    --green: 120 100% 50%; /* Verde */
+    --green-foreground: 0 0% 100%; /* Negro */
+    --blue: 240 100% 50%; /* Azul */
+    --blue-foreground: 0 0% 100%; /* Negro */
+    --yellow: 60 100% 50%; /* Amarillo */
+    --yellow-foreground: 0 0% 100%; /* Negro */
+    --magenta: 300 100% 50%; /* Magenta */
+    --magenta-foreground: 0 0% 100%; /* Negro */
+    --cyan: 180 100% 50%; /* Cian */
+    --cyan-foreground: 0 0% 100%; /* Negro */
+    --orange: 30 100% 50%; /* Naranja */
+    --orange-foreground: 0 0% 100%; /* Negro */
+    --light-blue: 270 100% 50%; /* Azul claro */
+    --light-blue-foreground: 0 0% 100%; /* Negro */
+    --purple: 330 100% 50%; /* Púrpura */
+    --purple-foreground: 0 0% 100%; /* Negro */
+    --lime: 90 100% 50%; /* Verde lima */
+    --lime-foreground: 0 0% 100%; /* Negro */
+    --mint: 150 100% 50%; /* Verde menta */
+    --mint-foreground: 0 0% 100%; /* Negro */
+
+    --background: rgb(255, 255, 255);
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -23,8 +46,8 @@ body {
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 0 100% 50%; /* Rojo */
+    --secondary-foreground: 222.2 47.4% 11.2%; /* Rojo */
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -73,11 +96,6 @@ body {
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+section{
+  @apply lg:p-10
 }

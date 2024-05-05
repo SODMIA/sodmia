@@ -10,8 +10,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "SODMIA",
-  description: "SODMIA",
+  title: "Sodmia",
+  description: " Soluciones de Optimización y Desarrollo MIA",
 };
 
 export default function RootLayout({
