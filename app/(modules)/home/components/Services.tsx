@@ -3,7 +3,7 @@ import { servicesData } from "../servicesData";
 
 export function Services() {
   return (
-    <section id="services" className="h-screnn bg-white text-gray-800">
+    <section id="services" className="h-screnn bg-white text-gray-800 mb-10">
       <div className="container mx-auto p-4 my-8 space-y-2 text-center">
         <h2 className="text-4xl font-bold">Nuestros Servicios</h2>
       </div>
@@ -11,7 +11,7 @@ export function Services() {
         {servicesData.map((service, index) => (
           <div key={index} className="flex flex-col items-center p-4">
             {service.icon}
-            <h3 className="my-3 text-2xl font-semibold">{service.title}</h3>
+            <h3 className="my-3 text-xl font-semibold">{service.title}</h3>
             <div className="space-y-1 leading-tight text-center">
               <p>{service.description}</p>
             </div>
