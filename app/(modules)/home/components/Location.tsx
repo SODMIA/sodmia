@@ -4,7 +4,7 @@ import img5 from "@/public/img5.jpg";
 
 export function Location() {
   return (
-    <section className="relative py-10 bg-black/50 backdrop-blur-xs text-white">
+    <section className="relative py-10 bg-red-900/50 backdrop-blur-xs text-white">
       <Image
         src={img5}
         alt="Background Image"

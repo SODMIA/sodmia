@@ -8,8 +8,8 @@ export function Contact() {
     <>
       <div id="contact" className="h-5"></div>
       <section className="grid grid-cols-12 text-gray-800 my-20">
-        <button className="col-span-6 p-5 text-left flex justify-center mb-6 space-x-5 border-r-4 hover:bg-gray-200 border-gray-600">
-          <Image src={adviser} width={180} height={100} alt="" />
+        <button className="col-span-6 p-5 text-left flex justify-center items-center mb-6 space-x-7 border-r-4 hover:bg-gray-200 hover:text-red-700 border-gray-600">
+          <Image src={adviser} width={100} height={100} alt="" />
           <div className="flex flex-col space-y-4 m-auto max-w-xs">
             <div>
               <h2 className="text-2xl font-semibold">
@@ -26,8 +26,8 @@ export function Contact() {
           </div>
         </button>
 
-        <button className="col-span-6 p-5 text-left flex justify-center mb-6 space-x-5 hover:bg-gray-200   border-gray-600">
-          <Image src={repair} width={180} height={100} alt="" />
+        <button className="col-span-6 p-5 text-left flex justify-center items-center mb-6 space-x-7 hover:bg-gray-200  hover:text-red-700 border-gray-600">
+          <Image src={repair} width={100} height={100} alt="" />
 
           <div className="flex flex-col space-y-4 max-w-xs">
             <div>
