@@ -58,39 +58,15 @@ export function CustomNavigationMenu() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger >
-            Servicios
-          </NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <h3 className="p-4 text-2xl">Nuestros servicios</h3>
-            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[700px] lg:grid-cols-3">
-              <ListItem
-                href="/desarrollo-software"
-                title="Desarrollo de software"
-              >
-                Mejora la productividad y simplifica tus procesos con la
-                digitalización empresarial. ¡No te quedes atrás!
-              </ListItem>
-              <ListItem
-                href="/integracion-de-sistemas"
-                title="Integración de sistemas"
-              >
-                Elimina la barrera del idioma entre tus sistemas y permite que
-                hablen entre sí para una operación fluida.
-              </ListItem>
-              <ListItem
-                href="/consultoria-transformacion-digital"
-                title="Consultoría Digital"
-              >
-                Transforma tu empresa con estrategias digitales que optimicen
-                tus recursos y potencien tu presencia en línea.
-              </ListItem>
-            </ul>
-          </NavigationMenuContent>
+          <Link href="#services" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Servicios
+            </NavigationMenuLink>
+          </Link>
         </NavigationMenuItem>
 
-        <NavigationMenuItem >
-          <Link   href="/portfolio" legacyBehavior passHref>
+        <NavigationMenuItem>
+          <Link href="/portfolio" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Portfolio
             </NavigationMenuLink>

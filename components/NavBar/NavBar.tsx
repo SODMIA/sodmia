@@ -1,7 +1,7 @@
 import React from "react";
 import { CustomNavigationMenu } from "./CustomNavigationMenu";
 import Link from "next/link";
-import { Button, buttonVariants } from "../ui/button";
+import { buttonVariants } from "../ui/button";
 
 export default function Navbar() {
   return (
@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="hidden lg:flex">
         <CustomNavigationMenu />
       </div>
-      <Link href="#contact" className={buttonVariants()}>
+      <Link href="/#contact" className={buttonVariants()}>
         Contacto
       </Link>
 

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import adviser from "@/public/icons/adviser.png";
 import repair from "@/public/icons/repair.png";
 
