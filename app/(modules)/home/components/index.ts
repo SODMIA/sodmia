@@ -1,0 +1,6 @@
+export * from './Contact'
+export * from './Hero'
+export * from './Location'
+export * from './OurApproach'
+export * from './Services'
+export * from './WhyChooseUs'

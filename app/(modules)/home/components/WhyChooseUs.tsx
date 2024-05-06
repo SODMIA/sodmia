@@ -1,14 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import img1 from "@/public/img1.jpg";
- 
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
-export default function WhyChooseUs() {
+export function WhyChooseUs() {
   return (
-    <section className="relative h-screen bg-black/40 backdrop-blur-xs">
-      {/* Agregando la imagen como fondo */}
+    <section className="relative h-screen bg-black/50 backdrop-blur-xs">
       <Image
         src={img1}
         alt="Background Image"
@@ -21,29 +17,28 @@ export default function WhyChooseUs() {
           <h1 className="max-w-2xl my-10 text-3xl font-extrabold tracking-tight leading-none xl:text-6xl">
             ¿Por qué elegirnos?
           </h1>
-          <ul className="list-disc pl-4 space-y-5">
+          <ul className="list-disc pl-4 space-y-5 text-lg">
             <li>
               <span className="font-bold">Experiencia comprobada:</span>{" "}
               Contamos con un equipo de expertos con una amplia experiencia en
               el desarrollo de software.
             </li>
             <li>
-              <span className="font-bold">Compromiso con el cliente:</span>{" "}
-              Nos comprometemos a ofrecer un servicio personalizado y orientado a resultados.
+              <span className="font-bold">Compromiso con el cliente:</span> Nos
+              comprometemos a ofrecer un servicio personalizado y orientado a
+              resultados.
             </li>
             <li>
               <span className="font-bold">Innovación y creatividad:</span>{" "}
-              Nuestra capacidad para pensar de manera innovadora nos permite encontrar soluciones creativas a los desafíos tecnológicos.
+              Nuestra capacidad para pensar de manera innovadora nos permite
+              encontrar soluciones creativas a los desafíos tecnológicos.
             </li>
             <li>
-              <span className="font-bold">Resultados probados:</span>{" "}
-              Hemos demostrado nuestro éxito a través de la entrega de proyectos exitosos y clientes satisfechos.
+              <span className="font-bold">Resultados probados:</span> Hemos
+              demostrado nuestro éxito a través de la entrega de proyectos
+              exitosos y clientes satisfechos.
             </li>
           </ul>
-          {/*           
-          <Link href="#services" className="mx-auto">
-            <Button>¿Qué hacemos?</Button>
-          </Link> */}
         </div>
       </div>
     </section>

@@ -10,7 +10,7 @@ export default function Navbar() {
         rel="noopener noreferrer"
         href="/"
         aria-label="Back to homepage"
-        className="flex items-center p-2"
+        className="flex items-center p-2 text-3xl"
       >
         SODMIA
       </Link>

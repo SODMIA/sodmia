@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import bg2 from "@/public/bg2.jpg";
 
-export default function OurApproach() {
+export function OurApproach() {
   return (
-    <section className="bg-transparent">
+    <section className="bg-white text-gray-800 h-screen">
       <div className="container flex flex-col-reverse mx-auto lg:flex-row">
         <div className="flex flex-col px-6 m-auto space-y-6   lg:w-1/2 xl:w-2/5">
           <div className="flex space-x-2 sm:space-x-4">

@@ -1,9 +1,9 @@
 import React from "react";
 import { servicesData } from "../servicesData";
 
-export default function Services() {
+export function Services() {
   return (
-    <section id="services" className="h-screnn bg-white ">
+    <section id="services" className="h-screnn bg-white text-gray-800">
       <div className="container mx-auto p-4 my-8 space-y-2 text-center">
         <h2 className="text-4xl font-bold">Nuestros Servicios</h2>
       </div>

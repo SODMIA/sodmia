@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-image: url("../public/bg1.jpg");
-  background-size:contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed
   @apply text-white bg-center border-none;
 }
 

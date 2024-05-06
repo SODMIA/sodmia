@@ -1,7 +1,11 @@
-import Hero from "./(modules)/home/components/Hero";
-import OurApproach from "./(modules)/home/components/OurApproach";
-import Services from "./(modules)/home/components/Services";
-import WhyChooseUs from "./(modules)/home/components/WhyChooseUs";
+import {
+  Contact,
+  Hero,
+  Location,
+  OurApproach,
+  Services,
+  WhyChooseUs,
+} from "./(modules)/home/components";
 
 export default function Home() {
   return (
@@ -10,6 +14,8 @@ export default function Home() {
       <Services />
       <OurApproach />
       <WhyChooseUs />
+      <Contact />
+      <Location />
     </>
   );
 }
