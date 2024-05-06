@@ -16,7 +16,7 @@ export function Hero() {
         className="absolute inset-0 z-[-1] "
       />
       <div className="grid h-full max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="grid my-auto mr-auto place-self-center lg:col-span-7 pt-7 text-white">
+        <div className="grid my-auto mr-auto place-self-center lg:col-span-7 lg:pt-12 text-white">
           <h1 className="max-w-2xl my-4 text-3xl font-extrabold tracking-tight leading-none xl:text-6xl">
             Te acompañamos en tu proceso de
             <span className="underline">digitalización</span>
@@ -26,7 +26,7 @@ export function Hero() {
             con soluciones innovadoras diseñadas a medida para potenciar el
             éxito de tu organización.
           </p>
-          <Link href="#services" className="mx-auto">
+          <Link href="#services" className="mx-auto text-lg">
             <Button>¿Qué hacemos?</Button>
           </Link>
         </div>

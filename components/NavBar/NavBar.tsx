@@ -1,11 +1,11 @@
 import React from "react";
 import { CustomNavigationMenu } from "./CustomNavigationMenu";
 import Link from "next/link";
-import { Button } from "../ui/button";
+import { Button, buttonVariants } from "../ui/button";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black  text-white z-50 p-4 container flex justify-between items-center h-14 mx-auto">
+    <nav className="fixed top-0 left-0 w-full bg-black text-white z-50 p-4 container flex justify-between items-center h-14 mx-auto">
       <Link
         rel="noopener noreferrer"
         href="/"
@@ -17,7 +17,10 @@ export default function Navbar() {
       <div className="hidden lg:flex">
         <CustomNavigationMenu />
       </div>
-      <Button className="hidden lg:block">Contacto</Button>
+      <Link href="#contact" className={buttonVariants()}>
+        Contacto
+      </Link>
+
       <button className="lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
