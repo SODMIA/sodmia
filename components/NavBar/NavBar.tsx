@@ -5,7 +5,7 @@ import { buttonVariants } from "../ui/button";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black text-white z-50 p-4 container flex justify-between items-center h-14 mx-auto">
+    <nav className="fixed top-0 left-0 w-full bg-black text-white z-50 p-4  flex justify-between items-center h-14">
       <Link
         rel="noopener noreferrer"
         href="/"
