@@ -88,7 +88,7 @@ export function ContactForm() {
             value={formState.message}
             onChange={handleChange}
             placeholder="Mensaje"
-            rows={4}
+            rows={3}
             className="w-full bg-white/20 border border-white/30 rounded-lg py-3 px-4 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-300 ease-in-out"
             required
           ></textarea>

@@ -4,13 +4,13 @@ import img1 from "@/public/img1.jpg";
 
 export function WhyChooseUs() {
   return (
-    <section className="relative h-screen bg-black/50 backdrop-blur-xs">
+    <section className="relative h-screen bg-gradient-to-r from-black/90 to-transparent backdrop-blur-xs">
       <Image
         src={img1}
         alt="Background Image"
         layout="fill"
         objectFit="cover"
-        className="absolute inset-0 z-[-1]"
+        className="absolute opacity-80  inset-0 z-[-1]"
       />
       <div className="grid h-full max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="grid my-auto ml-auto place-self-center lg:col-span-7 text-white">

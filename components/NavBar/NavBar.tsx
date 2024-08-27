@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black text-white z-50 p-4 flex justify-between items-center h-16" role="navigation" aria-label="Main">
+    <nav className="fixed top-0 left-0 w-full bg-black/80 text-white z-50 p-4 flex justify-between items-center h-16" role="navigation" aria-label="Main">
       <Link
         href="/"
         aria-label="SODMIA - Inicio"

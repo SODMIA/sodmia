@@ -10,9 +10,9 @@ export function Location() {
         alt="Background Image"
         layout="fill"
         objectFit="cover"
-        className="absolute inset-0 z-[-1]"
+        className="absolute opacity-80  inset-0 z-[-1]"
       />
-      <div className="absolute inset-0 bg-black opacity-50 z-[-1]"></div>
+      <div className="absolute inset-0  bg-gradient-to-r from-black/50 to-transparente z-[-1]"></div>
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">Colombia</h1>

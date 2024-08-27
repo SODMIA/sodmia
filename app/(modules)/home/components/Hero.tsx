@@ -6,11 +6,11 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen bg-black/25 backdrop-blur-xs">
+    <section className="relative min-h-screen  bg-gradient-to-r from-black to-transparent ">
       <Image
         src={bg1}
         alt="Equipo de SODMIA trabajando en soluciones digitales"
-        layout="fill"
+ 
         objectFit="cover"
         className="absolute inset-0 z-[-1]"
       />

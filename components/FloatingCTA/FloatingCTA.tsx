@@ -19,7 +19,7 @@ export function FloatingCTA() {
       <Link href="/contact">
         <Button 
           size="lg" 
-          className="shadow-lg bg-red-700 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105"
+          className="shadow-lg bg-secondary text-white font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105"
         >
           Contacta ahora
         </Button>

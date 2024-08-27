@@ -6,17 +6,10 @@ import { ContactForm } from './components/ContactForm';
 export default function ContactPage() {
   return (
     <div className="relative flex items-center justify-center min-h-screen py-10 px-4 sm:px-6 lg:pt-20">
-      <Image
-        src={img5}
-        alt="Background"
-        layout="fill"
-        objectFit="cover"
-        className="absolute inset-0 z-0"
-      />
-      <div className="absolute inset-0 bg-black opacity-70 z-10"></div>
-      <div className="relative z-20  w-full max-w-5xl bg-white/10 backdrop-blur-md rounded-xl shadow-2xl overflow-hidden">
+      <div className="absolute inset-0 bg-white z-10"></div>
+      <div className="relative z-20  w-full max-w-5xl bg-black/80 backdrop-blur-md rounded-xl shadow-2xl overflow-hidden">
         <div className="flex flex-col lg:flex-row">
-          <div className="lg:w-1/2 bg-white/80 p-3 lg:p-8">
+          <div className="lg:w-1/2 bg-white p-3 lg:p-8">
             <h1 className="text-3xl font-bold mb-6 text-gray-800">Contáctanos</h1>
             <p className="mb-8 text-gray-700 leading-relaxed">
               Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.
