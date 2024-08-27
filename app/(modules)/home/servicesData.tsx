@@ -8,17 +8,15 @@ import wrench from "@/public/icons/wrench.png";
 
 export const servicesData = [
   {
-    title: "Desarrollo a medida",
-    description:
-      "Creación de software personalizado para satisfacer las necesidades específicas de cada cliente.",
+    title: "Desarrollo a Medida",
+    description: "Creamos software personalizado que se adapta perfectamente a tu negocio, automatizando procesos y mejorando la eficiencia operativa.",
     icon: (
       <Image width={40} height={40} src={pantone} alt="Desarrollo a medida" />
     ),
   },
   {
-    title: "Optimización de procesos",
-    description:
-      "Análisis y mejora de los procesos internos mediante soluciones tecnológicas.",
+    title: "Optimización de Procesos",
+    description: "Analizamos y mejoramos tus flujos de trabajo con soluciones tecnológicas que aumentan la productividad y reducen costos.",
     icon: (
       <Image
         width={40}
@@ -29,10 +27,9 @@ export const servicesData = [
     ),
   },
   {
-    title: "Consultoría especializada",
-    description:
-      "Asesoramiento experto en estrategias de digitalización y desarrollo de software.",
-    icon: (
+    title: "Consultoría Estratégica",
+    description: "Te guiamos en tu viaje de transformación digital con asesoramiento experto, ayudándote a tomar decisiones informadas y estratégicas.",
+   icon: (
       <Image
         width={40}
         height={40}
@@ -42,9 +39,8 @@ export const servicesData = [
     ),
   },
   {
-    title: "Integración de sistemas",
-    description:
-      "Implementación de sistemas integrados para una gestión eficiente de la información.",
+    title: "Integración de Sistemas",
+    description: "Conectamos tus sistemas existentes para crear un ecosistema digital fluido, mejorando la colaboración y el acceso a la información.",
     icon: (
       <Image
         width={40}
@@ -55,17 +51,15 @@ export const servicesData = [
     ),
   },
   {
-    title: "Seguridad de datos",
-    description:
-      "Implementación de medidas de seguridad avanzadas para proteger la integridad y confidencialidad de los datos del cliente.",
+    title: "Seguridad de Datos",
+    description: "Protegemos tu información crítica con soluciones de seguridad avanzadas, garantizando la confianza de tus clientes y el cumplimiento normativo.",
     icon: (
       <Image width={40} height={40} src={encrypted} alt="Desarrollo a medida" />
     ),
   },
   {
-    title: "Soporte y mantenimiento",
-    description:
-      "Ofrecemos soporte continuo y mantenimiento para garantizar el funcionamiento óptimo del software desarrollado.",
+    title: "Soporte Continuo",
+    description: "Ofrecemos asistencia técnica 24/7 y mantenimiento proactivo para asegurar que tus soluciones digitales funcionen sin problemas.",
     icon: (
       <Image width={40} height={40} src={wrench} alt="Desarrollo a medida" />
     ),

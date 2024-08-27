@@ -6,28 +6,28 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="relative h-screen bg-black/25 backdrop-blur-xs">
+    <section className="relative min-h-screen bg-black/25 backdrop-blur-xs">
       <Image
         src={bg1}
-        alt="Background Image"
-        sizes="contain"
-     
+        alt="Equipo de SODMIA trabajando en soluciones digitales"
+        layout="fill"
         objectFit="cover"
-        className="absolute inset-0 z-[-1] "
+        className="absolute inset-0 z-[-1]"
       />
-      <div className="grid h-full max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="grid my-auto mr-auto place-self-center lg:col-span-7 lg:pt-12 text-white">
-          <h1 className="max-w-2xl my-4 text-3xl font-extrabold tracking-tight leading-none xl:text-6xl">
-            Te acompañamos en tu proceso de{" "}
-            <span className="underline">digitalización</span>
+      <div className="flex flex-col  justify-center items-start h-full max-w-screen-xl mx-auto px-4 py-16 sm:px-6 lg:px-8 lg:pt-32">
+        <div className="text-white max-w-2xl">
+          <h1 className="text-4xl pt-10 sm:text-5xl lg:text-6xl font-bold tracking-tight leading-none mb-4">
+            Impulsa tu negocio con la <span className="text-red-500">transformación digital</span>
           </h1>
-          <p className="max-w-2xl my-6 font-light  lg:mb-8 md:text-lg lg:text-xl">
-            Impulsando la transformación de tus procesos, productos y servicios
-            con soluciones innovadoras diseñadas a medida para potenciar el
-            éxito de tu organización.
+          <p className="mb-6 text-lg sm:text-xl lg:text-2xl">
+            Desarrollamos soluciones tecnológicas a medida que optimizan tus procesos, 
+            potencian tus productos y revolucionan tus servicios. Con SODMIA, 
+            el éxito digital de tu organización está garantizado.
           </p>
-          <Link href="#services" className="mx-auto text-lg">
-            <Button>¿Qué hacemos?</Button>
+          <Link href="#services">
+            <Button size="sm" className="text-base sm:text-lg">
+              Descubre cómo podemos ayudarte
+            </Button>
           </Link>
         </div>
       </div>

@@ -4,9 +4,9 @@ import bg2 from "@/public/bg2.jpg";
 
 export function OurApproach() {
   return (
-    <section className="bg-white text-gray-800 h-screen">
-      <div className="container flex flex-col-reverse mx-auto lg:flex-row">
-        <div className="flex flex-col px-6 m-auto space-y-6   lg:w-1/2 xl:w-2/5">
+    <section className="bg-white text-gray-800 py-10">
+      <div className="container flex flex-col mx-auto lg:flex-row">
+        <div className="flex flex-col px-6 py-8 space-y-6 lg:w-1/2 xl:w-2/5">
           <div className="flex space-x-2 sm:space-x-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ export function OurApproach() {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 xl:w-3/5">
+        <div className="lg:w-1/2 xl:w-3/5 mt-8 lg:mt-0">
           <div className="grid">
             <Image
               src={bg2}

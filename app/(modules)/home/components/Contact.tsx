@@ -6,43 +6,39 @@ export function Contact() {
   return (
     <>
       <div id="contact" className="h-5"></div>
-      <section className="grid grid-cols-12 text-gray-800 my-20">
-        <button className="col-span-6 p-5 text-left flex justify-center items-center mb-6 space-x-7 border-r-4 hover:bg-gray-200 hover:text-red-700 border-gray-600">
-          <Image src={adviser} width={100} height={100} alt="" />
-          <div className="flex flex-col space-y-4 m-auto max-w-xs">
-            <div>
-              <h2 className="text-2xl font-semibold">
-                Contacte un especialista
-              </h2>
-            </div>
-            <div className="space-y-1">
-              <p>
-                ¿Necesitas asesoramiento experto? ¡Contáctanos! Nuestros
-                especialistas están listos para brindarte la ayuda y orientación
-                que necesitas en tu situación específica.
+      <section className="text-gray-800 py-16 px-4">
+        <div className="container mx-auto mb-12 text-center">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">¿Listo para dar el salto digital?</h2>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+            Estamos aquí para convertir tus ideas en realidad. Nuestro equipo de expertos está 
+            ansioso por escuchar sobre tu proyecto y ayudarte a alcanzar tus metas digitales.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+          <div className="flex flex-col items-center p-6 border-b md:border-b-0 md:border-r border-gray-300">
+            <Image src={adviser} width={80} height={80} alt="Icono de asesor especializado" className="mb-6" />
+            <div className="text-center">
+              <h3 className="text-2xl font-semibold mb-4">Habla con un Experto</h3>
+              <p className="text-base sm:text-lg max-w-xs mx-auto">
+                ¿Tienes una idea revolucionaria o un desafío tecnológico? Nuestros asesores 
+                están listos para escucharte y ofrecerte soluciones personalizadas que 
+                impulsarán tu negocio.
               </p>
             </div>
           </div>
-        </button>
 
-        <button className="col-span-6 p-5 text-left flex justify-center items-center mb-6 space-x-7 hover:bg-gray-200  hover:text-red-700 border-gray-600">
-          <Image src={repair} width={100} height={100} alt="" />
-
-          <div className="flex flex-col space-y-4 max-w-xs">
-            <div>
-              <h2 className="text-2xl font-semibold">
-                Soporte exclusivo para clientes
-              </h2>
-            </div>
-            <div className="space-y-1">
-              <p>
-                ¿Necesitas asesoramiento experto? ¡Contáctanos! Nuestros
-                especialistas están listos para brindarte la ayuda y orientación
-                que necesitas en tu situación específica.
+          <div className="flex flex-col items-center p-6">
+            <Image src={repair} width={80} height={80} alt="Icono de soporte técnico" className="mb-6" />
+            <div className="text-center">
+              <h3 className="text-2xl font-semibold mb-4">Soporte Premium</h3>
+              <p className="text-base sm:text-lg max-w-xs mx-auto">
+                ¿Ya eres parte de la familia SODMIA? Accede a nuestro soporte exclusivo 
+                y descubre cómo podemos ayudarte a sacar el máximo provecho de tu 
+                inversión tecnológica.
               </p>
             </div>
           </div>
-        </button>
+        </div>
       </section>
     </>
   );
